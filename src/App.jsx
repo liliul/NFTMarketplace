@@ -1,10 +1,12 @@
-// import Header from './pages/header/Header'
+import Header from './pages/header/Header'
 
 function App() {
 
   return (
     <>
-      <section className="">
+      <section className="max-w-[1440px] m-auto bg-blue-300">
+
+        <Header />
 
       </section>
     </>
