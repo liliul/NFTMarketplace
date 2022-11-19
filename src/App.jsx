@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <section className="max-w-[1440px] m-auto bg-blue-300">
+      <section className="max-w-[1440px] relative  h-[100vh] m-auto img-ball">
 
         <Header />
 

@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; 
+*/
+
+:root {
+    --border-gradinet: radial-gradient(circle at top left, #73E0A9,#5B68DF);
+    --border-bg: linear-gradient(to right, #1F1D2B,#1f2a27);
+
+    --bg-gradient: linear-gradient(to right, #73E0A9, #5B68DF);
+
+    --fontUbuntu: 'Ubuntu', sans-serif;
+    --fontMontserrat: 'Monstserrat', sans-serif;
+}
+body {
+    background: #1F1D2B;
+}
+
+.bg-header {
+    background: rgba(31, 29, 43, 0.12);
+    backdrop-filter: blur(22.5px);
+}
+
+.border-gradient {
+    background-image: var(--border-bg)  ,var(--border-gradinet);
+    background-clip: content-box,border-box;
+    background-origin: border-box;
+    border: double 1px transparent;
+}
+
+.input-bg {
+    background: var(--border-bg);
+    color: white;
+    outline: none;
+}
+
+.bg-gradient {
+    background: var(--bg-gradient);
+}
+
+.img-ball {
+    background-image: url(./assets/ball.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 700px 800px;
+}
