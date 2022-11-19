@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'fontUbuntu': ['Ubuntu']
+      'fontUbuntu': ['Ubuntu'],
+      'fontMontserrat': ['Montserrat']
       
     },
 
