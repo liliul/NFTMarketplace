@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <section className="max-w-[1440px] relative  h-[1200px] m-auto img-ball">
+      <section className="max-w-[1440px] relative  h-auto m-auto img-ball">
 
         <Header />
 
