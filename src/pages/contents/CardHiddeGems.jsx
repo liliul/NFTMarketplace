@@ -15,14 +15,14 @@ export default function Cardhiddegems() {
 
         <>
             <section className="w-full h-auto">
-                <div className="ml-28 flex justify-between items-center  w-[1130px]">
+                <div className="ml-28 pt-11  flex justify-between items-center  w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Hidden Gems</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
                 </div>
 
-                <div className="ml-28 w-[1130px] flex gap-32">
+                <div className="ml-28 pt-11  w-[1166px] flex justify-between">
 
-                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-[525px] ">
+                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
                             <img src={Card1} className='rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
 
@@ -46,7 +46,7 @@ export default function Cardhiddegems() {
                         
                     </div>
 
-                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-[525px] ">
+                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
                             <img src={Card2} className='rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
 
@@ -69,7 +69,7 @@ export default function Cardhiddegems() {
                         
                     </div>
 
-                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-[525px] ">
+                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
                             <img src={Card3} className='rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
 
