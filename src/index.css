@@ -70,3 +70,15 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.hr-gradient {
+    background: var(--bg-gradient);
+    border: 0;
+}
+
+.grid-collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px,1fr));
+    /* place-content: start; */
+    gap: 32px 0px;
+}
