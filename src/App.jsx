@@ -2,6 +2,7 @@ import Header from './pages/header/Header'
 import TitleHead from './pages/contents/Titlehead'
 import Cardhiddegems from './pages/contents/CardHiddeGems'
 import TopCollections from './pages/contents/TopCollections'
+import CreateNft from './pages/contents/CreateNft'
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <Cardhiddegems />
         
           <TopCollections />
+
+          <CreateNft />
         </main>
       </section>
     </>

@@ -78,7 +78,12 @@ body {
 
 .grid-collections {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(286px,1fr));
-    /* place-content: start; */
+    grid-template-columns: repeat(auto-fill, minmax(286px,1fr));
+ 
     gap: 32px 0px;
+}
+
+.bg-create {
+    background: rgba(31, 29, 43, 1);
+    backdrop-filter: blur(200px);
 }
