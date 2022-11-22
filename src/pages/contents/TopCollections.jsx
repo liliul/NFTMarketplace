@@ -1,6 +1,22 @@
 
 import TopCard1 from '../../assets/card1-top-collections.jpg'
+import TopCard2 from '../../assets/card2-top-collections.jpg'
+import TopCard3 from '../../assets/card3-top-collections.jpg'
+import TopCard4 from '../../assets/card4-top-collections.jpg'
+import TopCard5 from '../../assets/card5-top-collections.jpg'
+import TopCard6 from '../../assets/card6-top-collections.jpg'
+import TopCard7 from '../../assets/card7-top-collections.jpg'
+import TopCard8 from '../../assets/card8-top-collections.jpg'
+
 import ProfileCollec1 from '../../assets/collection-card1.jpg'
+import ProfileCollec2 from '../../assets/collection-card2.jpg'
+import ProfileCollec3 from '../../assets/collection-card3.jpg'
+import ProfileCollec4 from '../../assets/collection-card4.jpg'
+import ProfileCollec5 from '../../assets/collection-card5.jpg'
+import ProfileCollec6 from '../../assets/collection-card6.jpg'
+import ProfileCollec7 from '../../assets/collection-card7.jpg'
+import ProfileCollec8 from '../../assets/collection-card8.jpg'
+
 import Verified from '../../assets/icon-verified.svg'
 
 export default function TopCollections() {
@@ -42,12 +58,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard2} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec2} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
@@ -68,12 +84,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard3} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec3} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
@@ -94,12 +110,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard4} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec4} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
@@ -120,12 +136,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard5} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec5} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
@@ -146,12 +162,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard6} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec6} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
@@ -172,12 +188,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard7} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec7} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
@@ -198,12 +214,12 @@ export default function TopCollections() {
 
                     <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                            <img src={TopCard8} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="">
                             <div className="p-5 flex items-center">
-                                <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
+                                <img src={ProfileCollec8} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
                                     <div className="flex">
