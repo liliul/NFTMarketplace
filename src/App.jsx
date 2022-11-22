@@ -3,6 +3,7 @@ import TitleHead from './pages/contents/Titlehead'
 import Cardhiddegems from './pages/contents/CardHiddeGems'
 import TopCollections from './pages/contents/TopCollections'
 import CreateNft from './pages/contents/CreateNft'
+import DiscoverFooter from './pages/contents/DiscoverFooter'
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
 
           <CreateNft />
         </main>
+
+        <footer className="w-full h-[1400px] footer-gradient">
+          <DiscoverFooter />
+        </footer>
       </section>
     </>
   )

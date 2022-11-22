@@ -23,7 +23,7 @@ export default function TopCollections() {
     return (
 
         <>
-            <section className="w-full h-auto mt-[144px] pb-16">
+            <section className="w-full h-auto mt-[144px] pb-16 img-ball-collections">
                 <div className="ml-28 flex justify-between items-center  w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Top Collections</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
@@ -35,8 +35,8 @@ export default function TopCollections() {
                             <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-5 pr-5">
+                            <div className=" flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
                                     <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
