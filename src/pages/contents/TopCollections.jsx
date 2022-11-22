@@ -35,13 +35,13 @@ export default function TopCollections() {
                             <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-5 pr-5">
-                            <div className=" flex items-center bg-[#1F1D2B]">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -49,7 +49,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -61,13 +61,13 @@ export default function TopCollections() {
                             <img src={TopCard2} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec2} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className=' text-white mr-2 text-[10px]'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -87,13 +87,13 @@ export default function TopCollections() {
                             <img src={TopCard3} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec3} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -113,13 +113,13 @@ export default function TopCollections() {
                             <img src={TopCard4} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec4} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -139,13 +139,13 @@ export default function TopCollections() {
                             <img src={TopCard5} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec5} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -153,7 +153,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -165,13 +165,13 @@ export default function TopCollections() {
                             <img src={TopCard6} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec6} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -191,13 +191,13 @@ export default function TopCollections() {
                             <img src={TopCard7} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec7} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -205,7 +205,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>
@@ -217,13 +217,13 @@ export default function TopCollections() {
                             <img src={TopCard8} className=' rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="">
-                            <div className="p-5 flex items-center">
+                        <div className="pl-4 pr-4">
+                            <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec8} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
-                                    <h1 className='text-white font-fontMontserrat font-bold text-sm'>World of Women Galaxy</h1>
+                                    <h1 className='text-white font-fontMontserrat font-bold text-[10px]'>World of Women Galaxy</h1>
                                     <div className="flex">
-                                        <p className='text-xs text-white mr-2'>By  Organization Woman</p>
+                                        <p className='text-[10px] text-white mr-2'>By  Organization Woman</p>
                                         <img src={Verified} width="11px" alt="Verified icon" />
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@ export default function TopCollections() {
 
                             <hr className='hr-gradient h-[1px] w-full' />
 
-                            <div className='p-5'>
+                            <div className='p-4 bg-[#1F1D2B] rounded-b-[17px]'>
                                 <p className='text-white font-fontUbuntu text-sm'>Price</p>
                                 <b className='text-white font-fontUbuntu text-sm'>0.218 ETH</b>
                             </div>

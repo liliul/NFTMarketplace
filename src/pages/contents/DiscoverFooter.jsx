@@ -5,7 +5,7 @@ export default function DiscoverFooter() {
     return (
 
         <>
-            <section className="w-full h-auto pt-28 pb-[128px] bg-slate-500">
+            <section className="w-full h-auto pt-28 pb-[128px]">
                 <article className="w-[994px] h-[736px] m-auto ">
                     <h1 className="text-white text-4xl font-fontMontserrat font-bold text-center">Discover the latest #TOPNFT</h1>
                     <p className="text-gradient text-center text-lg font-fontUbuntu mt-2">The NFT marketplace with everything for everyone</p>

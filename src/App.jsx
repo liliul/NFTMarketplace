@@ -4,6 +4,7 @@ import Cardhiddegems from './pages/contents/CardHiddeGems'
 import TopCollections from './pages/contents/TopCollections'
 import CreateNft from './pages/contents/CreateNft'
 import DiscoverFooter from './pages/contents/DiscoverFooter'
+import Footer from './pages/footer/Footer'
 
 
 function App() {
@@ -25,9 +26,11 @@ function App() {
           <CreateNft />
         </main>
 
-        <footer className="w-full h-[1400px] footer-gradient">
+        <section className="w-full h-auto footer-gradient">
           <DiscoverFooter />
-        </footer>
+
+          <Footer />
+        </section>
       </section>
     </>
   )
