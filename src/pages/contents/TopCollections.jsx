@@ -19,11 +19,14 @@ import ProfileCollec8 from '../../assets/collection-card8.jpg'
 
 import Verified from '../../assets/icon-verified.svg'
 
+import ImgCollec from '../../assets/background.png'
+
 export default function TopCollections() {
     return (
 
         <>
-            <section className="w-full h-auto mt-[144px] pb-16 img-ball-collections">
+            <section className="w-full h-auto mt-[144px] pb-16 img-ball-collections relative">
+                <img src={ImgCollec} className='img-collections' alt="img" />
                 <div className="ml-28 flex justify-between items-center  w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Top Collections</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
