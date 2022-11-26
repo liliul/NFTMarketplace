@@ -21,9 +21,9 @@ function App() {
           <TitleHead />
           
           <Cardhiddegems />
-          {/*
+         
           <TopCollections />
-
+          {/*
           <CreateNft /> */} 
         </main>
         {/*

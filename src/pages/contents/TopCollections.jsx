@@ -25,17 +25,17 @@ export default function TopCollections() {
     return (
 
         <>
-            <section className="w-full h-auto mt-[144px] pb-16 img-ball-collections relative">
-                <img src={ImgCollec} className='img-collections' alt="img" />
-                <div className="ml-28 flex justify-between items-center  w-[1166px]">
+            <section className="w-full h-auto mt-[144px] pb-16 xl:img-ball-collections relative">
+                <img src={ImgCollec} className='img-collections w-full h-full' alt="img" />
+                <div className="xl:ml-28 px-3 xl:px-0  flex justify-between items-center xl:w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Top Collections</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
                 </div>
 
-                <section className="w-[1166px] h-auto  ml-28 mt-11 grid-collections">
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard1} className=' rounded-t-[31px]' alt="Collections img" />
+                <section className="xl:w-[1166px] h-auto px-3 xl:px-0  xl:ml-28 mt-11 grid-collections">
+                    <article className="h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full ">
+                            <img src={TopCard1} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -59,9 +59,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard2} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className=" h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard2} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -85,9 +85,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard3} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className="w-full h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard3} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -111,9 +111,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard4} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className="h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard4} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -137,9 +137,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard5} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className="h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard5} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -163,9 +163,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard6} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className="h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard6} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -189,9 +189,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard7} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className="h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard7} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
@@ -215,9 +215,9 @@ export default function TopCollections() {
                         </div>
                     </article>
 
-                    <article className="w-[90%] h-[367px] rounded-[31px] border  border-[#73E0A9]">
-                        <div className="overflow-hidden">
-                            <img src={TopCard8} className=' rounded-t-[31px]' alt="Collections img" />
+                    <article className="h-full rounded-[31px] border  border-[#73E0A9]">
+                        <div className="overflow-hidden w-full">
+                            <img src={TopCard8} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
                         <div className="pl-4 pr-4">
