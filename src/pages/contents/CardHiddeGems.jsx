@@ -15,14 +15,14 @@ export default function Cardhiddegems() {
 
         <>
             <section className="w-full h-auto">
-                <div className="xl:ml-28 pt-11  flex justify-between items-center  xl:w-[1166px]">
+                <div className="xl:ml-28 pt-11 px-3 xl:px-0 flex justify-between items-center  xl:w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Hidden Gems</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
                 </div>
 
-                <div className="xl:ml-28 pt-11  xl:w-[1166px] flex flex-wrap justify-between">
+                <div className="xl:ml-28 pt-11 px-3 xl:px-0  xl:w-[1166px] flex gap-5 flex-wrap">
 
-                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
+                    <div className="flex-auto border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
                             <img src={Card1} className='rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
 
@@ -46,7 +46,7 @@ export default function Cardhiddegems() {
                         
                     </div>
 
-                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
+                    <div className="flex-auto border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
                             <img src={Card2} className='rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
 
@@ -69,9 +69,9 @@ export default function Cardhiddegems() {
                         
                     </div>
 
-                    <div className="border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
+                    <div className="flex-auto border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
-                            <img src={Card3} className='rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
+                            <img src={Card3} className='object-fill h-full rounded-[35px] overflow-hidden w-full'  alt="Img bg" />
 
                             <div className='absolute bottom-[-28px]'>
                                 <img src={Profile3} className='rounded-full overflow-hidden' alt="Img icon" />
