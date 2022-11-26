@@ -7,19 +7,25 @@ function Header() {
 
     return (
         <>
-            <header className="max-w-[1440px] w-full h-20 flex items-center bg-header fixed top-0  z-50">
-                <img src={Logo} className="pl-28" alt="Logo header" />
+            <header 
+                className="max-w-[1440px] menuOpen w-full h-20 lg:flex lg:justify-around sm:flex sm:justify-around flex items-center justify-between bg-header fixed top-0  z-50"
+            >
+                <img src={Logo} className="xl:pl-28 " alt="Logo header" />
 
-                <div className="flex items-center ml-[97px] h-9 w-96 rounded-full border-gradient">
+                <div className="flex gap-8 items-center lg:ml-[57px] hidden sm:flex md:flex h-9 w-96 rounded-full border-gradient">
                     <div className=''>
-                        <img src={Search} className='pl-8 pr-6'  alt="Search icon" />
+                        <img src={Search} className='ml-10'  alt="Search icon" />
                     </div>            
                    
 
-                    <input type="search" className='input-bg text-sm w-72  h-4'  placeholder='Search items, collections, and accounts' />
+                    <input 
+                        type="search" 
+                        className='bg-white text-sm w-96 h-4 input-bg p-1 mr-10'  
+                        placeholder='Search items, collections, and accounts'
+                    />
                 </div>
 
-                <nav className='ml-[97px] flex'>
+                <nav className='ml-[97px] flex lg:flex md:hidden sm:hidden hidden'>
                     <ul className='flex items-center text-white'>
                         <li className='mr-[40px] text-sm'>Explore</li>
                         <li className='mr-[40px] text-sm'>Activity</li>
@@ -31,11 +37,16 @@ function Header() {
                     </div>
                 </nav>
 
-                <button className='flex items-center justify-center  bg-gradient w-44 h-8 rounded-full'>
+                <button className='xl:flex lg:hidden md:hidden sm:hidden hidden flex items-center justify-center  bg-gradient w-44 h-8 rounded-full'>
                     <img src={Wallet} alt="Wallet icon" />
                     <b className='text-white ml-4 font-fontUbuntu text-sm'>connect Wallet</b>
                 </button>
 
+                <nav className=' xl:hidden w-[32px] h-[32px] flex flex-col gap-1 justify-center items-end p-1 border border-gray-800'>
+                    <div className='w-full h-1 bg-gradient'></div>
+                    <div className='w-[70%] h-1 bg-gradient'></div>
+                    <div className='w-[50%] h-1 bg-gradient'></div> 
+                </nav>
             </header>
         </>
     )   

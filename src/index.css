@@ -9,6 +9,8 @@ font-family: 'Ubuntu', sans-serif;
 */
 
 :root {
+    --bg: #1F1D2B;
+
     --border-gradinet: radial-gradient(circle at top left, #73E0A9,#5B68DF);
     --border-bg: linear-gradient(to right, #1F1D2B,#1f2a27);
 
@@ -22,20 +24,22 @@ body {
     /* background: #FFFFFF; */
 }
 
-.bg-header {
+
+.bg-header { 
     background: rgba(31, 29, 43, 0.12);
     backdrop-filter: blur(22.5px);
 }
 
 .border-gradient {
-    background-image: var(--border-bg)  ,var(--border-gradinet);
+    background-image: var(--border-bg),var(--border-gradinet);
     background-clip: content-box,border-box;
     background-origin: border-box;
     border: double 1px transparent;
+
 }
 
 .input-bg {
-    background: var(--border-bg);
+    background: transparent;
     color: white;
     outline: none;
 }
@@ -97,15 +101,19 @@ body {
 .footer-gradient {
     /* background: linear-gradient(to bottom right  , #2f3676 10%, #2c5f46 90%)   */
 
-    position: absolute;
-    top: 0;
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    /* background-position: -70%,50%; */
+
+    /* position: absolute;
+    top: -300px;
     left: 0;
    
     z-index: -999;
     transform: scaleY(-1);    
 
     width: 100%;
-    height: 1270px;
+    height: 1270px; */
 } 
 
 .play-center {

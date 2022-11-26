@@ -2,6 +2,7 @@ import Imgvideo from '../../assets/img-video.jpg'
 import Play from '../../assets/play.svg'
 
 export default function DiscoverFooter() {
+
     return (
 
         <>
