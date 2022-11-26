@@ -52,7 +52,7 @@ body {
     background-image: url(./assets/ball.png), url(./assets/background.png);
     background-position: right top , top;
     background-repeat: no-repeat;
-    background-size: 700px 800px, contain;
+    background-size: 700px 800px, cover;
 }
 
 

@@ -15,18 +15,18 @@ function App() {
       <section className="max-w-[1440px]   h-auto m-auto img-ball">
 
         <Header />
-        {/*
+        
         <main className='w-full h-auto '>
-        
+          
           <TitleHead />
-
+          
           <Cardhiddegems />
-        
+          {/*
           <TopCollections />
 
-          <CreateNft />
+          <CreateNft /> */} 
         </main>
-      
+        {/*
         <section className="w-full h-auto footer-gradient">
           {/* <img src={ImgFooter} className='footer-gradient' alt="Img" /> 
           <DiscoverFooter />
