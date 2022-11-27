@@ -6,7 +6,7 @@ import CreateNft from './pages/contents/CreateNft'
 import DiscoverFooter from './pages/contents/DiscoverFooter'
 import Footer from './pages/footer/Footer'
 
-// import ImgFooter from './assets/background.png'
+import ImgFooter from './assets/background.png'
 
 function App() {
 
@@ -27,8 +27,8 @@ function App() {
           <CreateNft /> 
         </main>
         
-        <section className="w-full h-auto footer-gradient">
-           {/* <img src={ImgFooter} className='footer-gradient' alt="Img" />  */}
+        <section className="w-full h-auto footergradient relative">
+           <img src={ImgFooter} className='footer-gradient' alt="Img" /> 
           <DiscoverFooter />
           
           <Footer />

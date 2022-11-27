@@ -88,33 +88,34 @@ body {
    
     z-index: -999;
     transform: scaleX(-1);
-    object-fit: cover;    
+    object-fit: fill;    
     /* width: 100%; */
     /* height: 100vh; */
 }
 
 .bg-create {
-    background: rgba(31, 29, 43, 1);
+    background: rgba(31, 29, 43, 0.1);
     backdrop-filter: blur(200px);
 }
 
 .footer-gradient {
     /* background: linear-gradient(to bottom right  , #2f3676 10%, #2c5f46 90%)   */
 
-    background-image: url(./assets/background.png);
-    background-repeat: no-repeat;
+    /* background-image: url(./assets/background.png);
+    background-repeat: no-repeat; */
     object-fit: cover;
-    /* background-position: -70%,50%; */
+    /* background-position: -70%,50%;  */
 
-    /* position: absolute;
-    top: -300px;
+     position: absolute;
+    /* top: -100px; */
     left: 0;
    
     z-index: -999;
     transform: scaleY(-1);    
 
     width: 100%;
-    height: 1270px; */
+    height: 100%;
+    /* height: 1270px; */
 } 
 
 .play-center {

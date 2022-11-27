@@ -25,7 +25,7 @@ export default function TopCollections() {
     return (
 
         <>
-            <section className="w-full h-auto mt-[144px] pb-16 xl:img-ball-collections relative">
+            <section className="w-full h-auto mt-[144px] pb-16 relative">
                 <img src={ImgCollec} className='img-collections w-full h-full' alt="img" />
                 <div className="xl:ml-28 px-3 xl:px-0  flex justify-between items-center xl:w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Top Collections</h1>
