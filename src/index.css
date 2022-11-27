@@ -69,7 +69,7 @@ body {
 
 .grid-collections {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(286px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
  
     gap: 32px 20px;
 }
@@ -87,7 +87,7 @@ body {
     left: 0;
    
     z-index: -999;
-    transform: scaleX(-1);
+    transform: scaleY(-1);
     object-fit: fill;    
     /* width: 100%; */
     /* height: 100vh; */

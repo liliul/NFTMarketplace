@@ -38,7 +38,7 @@ export default function TopCollections() {
                             <img src={TopCard1} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec1} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -64,7 +64,7 @@ export default function TopCollections() {
                             <img src={TopCard2} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec2} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -90,7 +90,7 @@ export default function TopCollections() {
                             <img src={TopCard3} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec3} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -116,7 +116,7 @@ export default function TopCollections() {
                             <img src={TopCard4} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec4} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -142,7 +142,7 @@ export default function TopCollections() {
                             <img src={TopCard5} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec5} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -168,7 +168,7 @@ export default function TopCollections() {
                             <img src={TopCard6} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec6} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -194,7 +194,7 @@ export default function TopCollections() {
                             <img src={TopCard7} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec7} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">
@@ -220,7 +220,7 @@ export default function TopCollections() {
                             <img src={TopCard8} className='w-full rounded-t-[31px]' alt="Collections img" />
                         </div>
 
-                        <div className="pl-4 pr-4">
+                        <div className="px-4 pb-4">
                             <div className="p-5 flex items-center bg-[#1F1D2B]">
                                 <img src={ProfileCollec8} className='rounded-full overflow-hidden' alt="Profile Img" />
                                 <div className="ml-2">

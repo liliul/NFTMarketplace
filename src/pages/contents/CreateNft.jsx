@@ -12,7 +12,7 @@ export default function CreateNft() {
                 <article className="xl:ml-28 px-3 xl:px-0  h-auto wh-[373px] xl:w-[1166px]  flex flex-col justify-between ">
                     <h1 className="text-white text-xl sm:text-2xl pb-8 font-fontMontserrat font-bold">Create and sell your NFTs</h1>
 
-                    <section className="w-full md:flex lg:justify-between flex justify-center flex-wrap gap-5">
+                    <section className="w-full md:flex lg:justify-between flex justify-center flex-wrap gap-12">
                         <article className="w-[205px] h-auto ">
                             <div className="flex flex-col items-center">
                                 <img src={Walletone} alt="Wallet icon" />
