@@ -23,6 +23,18 @@ body {
     background: #1F1D2B;
     /* background: #FFFFFF; */
 }
+.menu {
+    display: block;
+}
+.close {
+    display: none;
+}
+.bb {
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+}
 
 
 .bg-header { 
