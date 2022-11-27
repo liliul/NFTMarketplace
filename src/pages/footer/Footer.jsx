@@ -12,9 +12,9 @@ export default function Footer() {
     return (
 
         <>
-            <footer className="w-full h-322px bg-header pb-24">
+            <footer className="w-full h-auto xl:h-322px bg-header pb-24">
 
-                <section className="w-[1166px] h-[198px] ml-28 flex justify-between pt-[61px]">
+                <section className="h-auto xl:w-[1166px] xl:h-[198px] xl:ml-28 xl:flex xl:justify-between flex justify-center gap-8 flex-wrap pt-[61px] px-3">
                     <article className="w-[276px] h-auto ">
                         <img src={Logo} alt="Logo" />
 

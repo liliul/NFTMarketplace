@@ -9,6 +9,7 @@ function Header() {
 
     const handleMenu = () => {
         alert('Open Menu')
+        document.title = 'Imagem Digital'
     }
 
     return (
@@ -18,7 +19,7 @@ function Header() {
             >
                 <img src={Logo} className="xl:pl-28 " alt="Logo header" />
 
-                <div className="flex gap-8 items-center lg:ml-[57px] hidden sm:flex md:flex h-9 w-96 rounded-full border-gradient">
+                <div className="hidden gap-8 items-center lg:ml-[57px] sm:flex md:flex h-9 w-96 rounded-full border-gradient">
                     <div className=''>
                         <img src={Search} className='ml-10'  alt="Search icon" />
                     </div>            
@@ -31,7 +32,7 @@ function Header() {
                     />
                 </div>
 
-                <nav className='ml-[97px] flex lg:flex md:hidden sm:hidden hidden'>
+                <nav className='ml-[97px] lg:flex md:hidden sm:hidden hidden'>
                     <ul className='flex items-center text-white'>
                         <li className='mr-[40px] text-sm'>Explore</li>
                         <li className='mr-[40px] text-sm'>Activity</li>
@@ -43,7 +44,7 @@ function Header() {
                     </div>
                 </nav>
 
-                <button className='xl:flex lg:hidden md:hidden sm:hidden hidden flex items-center justify-center  bg-gradient w-44 h-8 rounded-full'>
+                <button className='xl:flex lg:hidden md:hidden sm:hidden hidden items-center justify-center  bg-gradient w-44 h-8 rounded-full'>
                     <img src={Wallet} alt="Wallet icon" />
                     <b className='text-white ml-4 font-fontUbuntu text-sm'>connect Wallet</b>
                 </button>

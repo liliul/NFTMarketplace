@@ -23,16 +23,16 @@ function App() {
           <Cardhiddegems />
          
           <TopCollections />
-          {/*
-          <CreateNft /> */} 
+          
+          <CreateNft /> 
         </main>
-        {/*
+        
         <section className="w-full h-auto footer-gradient">
-          {/* <img src={ImgFooter} className='footer-gradient' alt="Img" /> 
+           {/* <img src={ImgFooter} className='footer-gradient' alt="Img" />  */}
           <DiscoverFooter />
-
+          
           <Footer />
-        </section> */}
+        </section>
       </section>
     </>
   )

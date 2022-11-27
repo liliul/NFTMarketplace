@@ -7,13 +7,13 @@ export default function DiscoverFooter() {
 
         <>
             <section className="w-full h-auto pt-28 pb-[128px]">
-                <article className="w-[994px] h-[736px] m-auto ">
-                    <h1 className="text-white text-4xl font-fontMontserrat font-bold text-center">Discover the latest #TOPNFT</h1>
+                <article className="max-w-[994px] h-[736px] m-auto px-3">
+                    <h1 className="text-white sm:text-4xl text-3xl font-fontMontserrat font-bold text-center">Discover the latest #TOPNFT</h1>
                     <p className="text-gradient text-center text-lg font-fontUbuntu mt-2">The NFT marketplace with everything for everyone</p>
                 
-                    <figure className='mt-[54px] w-full h-[483px] relative'>
+                    <figure className='mt-[54px] w-full lg:h-[483px] h-auto relative'>
                         <img src={Imgvideo} alt="Video img" />
-                        <figcaption className='w-full h-full play-center'>
+                        <figcaption className='w-full lg:h-[483px] h-full play-center '>
                             <img src={Play} width="64px" alt="Play img" />
                         </figcaption>
                     </figure>

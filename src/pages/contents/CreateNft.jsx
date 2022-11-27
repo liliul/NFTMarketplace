@@ -8,12 +8,12 @@ export default function CreateNft() {
     return (
 
         <>
-            <section className="w-full h-[524px] bg-create pt-20">
-                <article className="ml-28 h-[373px] w-[1166px]  flex flex-col justify-between">
-                    <h1 className="text-white text-2xl font-fontMontserrat font-bold">Create and sell your NFTs</h1>
+            <section className="w-full lg:h-[524px] bg-create pt-20 pb-8">
+                <article className="xl:ml-28 px-3 xl:px-0  h-auto wh-[373px] xl:w-[1166px]  flex flex-col justify-between ">
+                    <h1 className="text-white text-xl sm:text-2xl pb-8 font-fontMontserrat font-bold">Create and sell your NFTs</h1>
 
-                    <section className="w-full flex justify-between">
-                        <article className="w-[205px] h-[231px] ">
+                    <section className="w-full md:flex lg:justify-between flex justify-center flex-wrap gap-5">
+                        <article className="w-[205px] h-auto ">
                             <div className="flex flex-col items-center">
                                 <img src={Walletone} alt="Wallet icon" />
                                 <p className='text-white mt-3'>Set up your wallet</p>
@@ -26,7 +26,7 @@ export default function CreateNft() {
                             </p>
                         </article>
 
-                        <article className="w-[205px] h-[231px] ">
+                        <article className="w-[205px] h-auto ">
                             <div className="flex flex-col items-center">
                                 <img src={Triangle} alt="Wallet icon" />
                                 <p className='text-white mt-3'>Create your collection</p>
@@ -38,7 +38,7 @@ export default function CreateNft() {
                             </p>
                         </article>
 
-                        <article className="w-[205px] h-[231px] ">
+                        <article className="w-[205px] h-auto ">
                             <div className="flex flex-col items-center">
                                 <img src={Picture} alt="Wallet icon" />
                                 <p className='text-white mt-3'>Add your NFTs</p>
@@ -50,7 +50,7 @@ export default function CreateNft() {
                             </p>
                         </article>
 
-                        <article className="w-[205px] h-[231px] ">
+                        <article className="w-[205px] h-auto ">
                             <div className="flex flex-col items-center">
                                 <img src={Shopping} alt="Wallet icon" />
                                 <p className='text-white mt-3'>List them for sale</p>

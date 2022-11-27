@@ -103,6 +103,7 @@ body {
 
     background-image: url(./assets/background.png);
     background-repeat: no-repeat;
+    object-fit: cover;
     /* background-position: -70%,50%; */
 
     /* position: absolute;
