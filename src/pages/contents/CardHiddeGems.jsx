@@ -15,12 +15,12 @@ export default function Cardhiddegems() {
 
         <>
             <section className="w-full h-auto">
-                <div className="xl:ml-28 pt-11 px-4 xl:px-0 flex justify-between items-center  xl:max-w-[1166px]">
+                <div className="xl:ml-28 pt-11 pl-4 pr-4 xl:pl-0 flex justify-between items-center  xl:max-w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Hidden Gems</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
                 </div>
 
-                <div className="xl:ml-28 pt-11 px-4 xl:px-0 xl:max-w-[1166px] flex xl:gap-14 gap-5 flex-wrap">
+                <div className="xl:ml-28 pt-11 pl-4 pr-4 xl:pl-0 xl:max-w-[1166px] flex xl:gap-14 gap-5 flex-wrap">
 
                     <div className="flex-auto border border-black mt-5 p-2 rounded-3xl w-[321px] h-auto ">
                         <div className="w-full h-[287px] flex flex-col items-center  relative">
