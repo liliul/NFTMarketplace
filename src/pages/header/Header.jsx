@@ -59,26 +59,26 @@ function Header() {
                 </nav>
 
                 <div className={menuOpen ? "menu bb" : "close"}>
-                    <nav className='xl:hidden relative w-[500px] h-auto '>
-                        <div className='w-full h-auto z-auto flex flex-col items-center py-8 gap-16 bg-header absolute right-0 top-0'>
-                            <div className="flex gap-8 items-center sm:hidden h-9 w-96 rounded-full border-gradient">
-                                <div className=''>
-                                    <img src={Search} className='ml-10'  alt="Search icon" />
+                    <nav className='xl:hidden bg-header z-[1001] w-full sm:w-[500px] h-[400px] '>
+                        <div className='w-full h-full flex flex-col items-center py-8 gap-16  right-0 top-0'>
+                            <div className="flex gap-2 sm:gap-8 items-center sm:hidden h-9 sm:w-96 rounded-full border-gradient">
+                                <div className='pl-1'>
+                                    <img src={Search} className='sm:ml-10'  alt="Search icon" />
                                 </div>            
                    
 
                                 <input 
                                     type="search" 
-                                    className='bg-white text-sm w-96 h-4 input-bg p-1 mr-10'  
+                                    className='bg-white text-sm sm:w-96 h-4 input-bg p-1 sm:mr-10'  
                                     placeholder='Search items, collections, and accounts'
                                 />
                                 </div>
 
                                 <nav className='flex flex-col items-center gap-4 lg:hidden'>
-                                    <ul className='flex items-center text-white'>
-                                        <li className='mr-[40px] text-sm'>Explore</li>
-                                        <li className='mr-[40px] text-sm'>Activity</li>
-                                        <li className='mr-[40px] text-sm'>Resources</li>
+                                    <ul className='flex items-center gap-2 sm:gap-8 text-white'>
+                                        <li className=' text-sm'>Explore</li>
+                                        <li className=' text-sm'>Activity</li>
+                                        <li className=' text-sm'>Resources</li>
                                     </ul>
 
                                     <div className=' border-gradient rounded-full w-24 h-[32px] flex items-center justify-center'>
