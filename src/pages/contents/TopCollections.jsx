@@ -27,12 +27,12 @@ export default function TopCollections() {
         <>
             <section className="w-full h-auto mt-[144px] pb-16 relative">
                 <img src={ImgCollec} className='img-collections w-full h-full' alt="img" />
-                <div className="xl:ml-28 px-3 xl:px-0  flex justify-between items-center xl:w-[1166px]">
+                <div className="xl:ml-28 px-4 xl:px-0 flex justify-between items-center xl:max-w-[1166px]">
                     <h1 className="text-xl text-white font-fontMontserrat font-bold">Top Collections</h1>
                     <span className="text-sm font-bold text-gradient">View All</span>
                 </div>
 
-                <section className="xl:w-[1166px] h-auto px-3 xl:px-0  xl:ml-28 mt-11 grid-collections">
+                <section className="xl:max-w-[1166px]  h-auto px-4 xl:px-0  xl:ml-28 mt-11 grid-collections">
                     <article className="h-full rounded-[31px] border  border-[#73E0A9]">
                         <div className="overflow-hidden w-full ">
                             <img src={TopCard1} className='w-full rounded-t-[31px]' alt="Collections img" />

@@ -14,7 +14,7 @@ export default function Footer() {
         <>
             <footer className="w-full h-auto xl:h-322px bg-header pb-24">
 
-                <section className="h-auto xl:w-[1166px] xl:h-[198px] xl:ml-28 xl:flex lg:justify-between flex justify-center gap-8 flex-wrap pt-[61px] px-3 xl:px-0 ">
+                <section className="h-auto xl:max-w-[1166px] xl:h-[198px] xl:ml-28 xl:flex lg:justify-between flex justify-center gap-8 flex-wrap pt-[61px] px-4 xl:pr-0">
                     <article className="w-[276px] h-auto ">
                         <img src={Logo} alt="Logo" />
 
@@ -50,7 +50,7 @@ export default function Footer() {
                     <article className="w-[211px] h-auto">
                         <b className="text-gradient text-sm font-fontUbuntu font-bold">Follow us on</b>
 
-                        <div className="grid grid-cols-3 gap-2 place-content-between  mt-2">
+                        <div className="grid grid-cols-3 gap-2 mt-2">
                             <div className='w-[45px] h-[45px] border border-[#73E0A9] flex items-center justify-center rounded-lg'><img src={Face} alt="Facebook icon" /></div>
                             <div className='w-[45px] h-[45px] border border-[#73E0A9] flex items-center justify-center rounded-lg'><img src={Insta} alt="Instagram icon" /></div>
                             <div className='w-[45px] h-[45px] border border-[#73E0A9] flex items-center justify-center rounded-lg'><img src={Tele} alt="Telegram icon" /></div>

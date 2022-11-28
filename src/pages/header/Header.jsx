@@ -15,7 +15,7 @@ function Header() {
     return (
         <>
             <header 
-                className="max-w-[1440px]  w-full h-20 lg:flex lg:justify-around sm:flex sm:justify-around flex items-center justify-between bg-header fixed top-0  z-50"
+                className="max-w-[1440px] xl:pr-2  w-full h-20 lg:flex lg:justify-around sm:flex sm:justify-around flex items-center justify-between bg-header fixed top-0  z-50"
             >
                 <img src={Logo} className="xl:pl-28 " alt="Logo header" />
 
