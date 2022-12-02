@@ -15,7 +15,7 @@ function Header() {
     return (
         <>
             <header 
-                className="max-w-[1440px] xl:pr-2  w-full h-20 lg:flex lg:justify-around sm:flex sm:justify-around flex items-center justify-between bg-header fixed top-0  z-50"
+                className="max-w-[1440px] header-medias-query header-flex w-full h-20 bg-header fixed top-0  z-50"
             >
                 <img src={Logo} className="xl:pl-28 " alt="Logo header" />
 
@@ -87,7 +87,7 @@ function Header() {
                                     </div>
                                 </nav>
 
-                                <button className='xl:flex xl:hidden flex items-center justify-center  bg-gradient w-44 h-8 rounded-full'>
+                                <button className='xl:hidden flex items-center justify-center  bg-gradient w-44 h-8 rounded-full'>
                                     <img src={Wallet} alt="Wallet icon" />
                                     <b className='text-white ml-4 font-fontUbuntu text-sm'>connect Wallet
                                     </b>

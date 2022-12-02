@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+
+    .header-medias-query {
+        @apply xl:pr-2 lg:flex lg:justify-around sm:flex sm:justify-around;
+    }
+    .header-flex {
+        @apply flex items-center justify-between;
+    }
+
+    .topCollections {
+        @apply w-full h-auto mt-[144px] pb-16 relative;
+    }
+
+
+}
 
 /* 
 font-family: 'Montserrat', sans-serif;

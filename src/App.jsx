@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <section className="max-w-[1440px]   h-auto m-auto img-ball">
+      <section className="max-w-[1440px] h-auto m-auto img-ball">
 
         <Header />
         
