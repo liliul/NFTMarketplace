@@ -18,11 +18,6 @@
 
 }
 
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif; 
-*/
-
 :root {
     --bg: #1F1D2B;
 
@@ -36,7 +31,6 @@ font-family: 'Ubuntu', sans-serif;
 }
 body {
     background: #1F1D2B;
-    /* background: #FFFFFF; */
 }
 .menu {
     display: block;
@@ -101,13 +95,7 @@ body {
  
     gap: 32px 20px;
 }
-/* .img-ball-collections {
-    background-image: url(./assets/background.png);
-    background-size: 100%;
-    position: absolute;
-    top: 0;
 
-} */
 
 .img-collections {
     position: absolute;
@@ -127,15 +115,10 @@ body {
 }
 
 .footer-gradient {
-    /* background: linear-gradient(to bottom right  , #2f3676 10%, #2c5f46 90%)   */
 
-    /* background-image: url(./assets/background.png);
-    background-repeat: no-repeat; */
     object-fit: cover;
-    /* background-position: -70%,50%;  */
 
-     position: absolute;
-    /* top: -100px; */
+    position: absolute;
     left: 0;
    
     z-index: -999;
@@ -143,7 +126,6 @@ body {
 
     width: 100%;
     height: 100%;
-    /* height: 1270px; */
 } 
 
 .play-center {
