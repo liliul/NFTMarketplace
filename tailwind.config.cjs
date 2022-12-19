@@ -4,7 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: { 
+  theme: {
     fontFamily: {
       'fontUbuntu': ['Ubuntu'],
       'fontMontserrat': ['Montserrat']

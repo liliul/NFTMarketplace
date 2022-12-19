@@ -59,7 +59,7 @@ function Header() {
                 </nav>
 
                 <div className={menuOpen ? "menu bb" : "close"}>
-                    <nav className='xl:hidden bg-header z-[1001] w-full sm:w-[500px] h-[400px] '>
+                    <nav className='xl:hidden bg-header z-[1001] w-full sm:w-[500px] h-[400px]'>
                         <div className='w-full h-full flex flex-col items-center py-8 gap-16  right-0 top-0'>
                             <div className="flex gap-2 sm:gap-8 items-center sm:hidden h-9 sm:w-96 rounded-full border-gradient">
                                 <div className='pl-1'>

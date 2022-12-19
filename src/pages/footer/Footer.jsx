@@ -26,7 +26,7 @@ export default function Footer() {
                         TheFund is the world's first non-fungible token (NFT) marketplace for both digital and physical assets
                         </p>
                     </article>
-                    <article className="flex gap-10  md:gap-16">
+                    <article className="flex gap-6 md:gap-16">
                         <ul>
                             <b className="text-gradient text-sm font-fontUbuntu font-bold ">Company</b>
                             <li className='text-white text-xs font-bold mb-[14px] mt-2'>About</li>
