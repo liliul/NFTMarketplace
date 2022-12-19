@@ -14,7 +14,7 @@ export default function Footer() {
         <>
             <footer className="w-full h-auto xl:h-322px bg-header pb-24">
 
-                <section className="h-auto xl:max-w-[1166px] xl:h-[198px] xl:ml-28 xl:flex lg:justify-between flex justify-center gap-8 flex-wrap pt-[61px] px-4 xl:pr-0">
+                <section className="h-auto xl:max-w-[1166px] xl:h-[198px] xl:ml-28 xl:flex lg:justify-between flex gap-8 flex-wrap pt-[61px] px-4 xl:pr-0">
                     <article className="w-[276px] h-auto ">
                         <img src={Logo} alt="Logo" />
 

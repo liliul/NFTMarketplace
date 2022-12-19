@@ -61,7 +61,7 @@ export default function Cardhiddegems() {
                                 <img src={Veri} alt="Verified icon" />
                             </header>
                             <h4 className='text-center text-xs text-white'>Created by <strong className='text-gradient'>B30898</strong></h4>
-                            <p className='mt-4 text-white text-sm font-fontUbuntu'>
+                            <p className='mt-4 text-white text-sm font-fontUbuntu line-clamp-4'>
                                 Meta Bounty Hunters is a first of its kind  community and collective of elite members who share a community-first
                                  mindset and are focused on giving back to its NFT holders through the Reflection Rewards.
                             </p>

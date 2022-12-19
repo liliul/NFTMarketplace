@@ -4,7 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+  theme: { 
     fontFamily: {
       'fontUbuntu': ['Ubuntu'],
       'fontMontserrat': ['Montserrat']
@@ -13,5 +13,7 @@ module.exports = {
 
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }

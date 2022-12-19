@@ -15,7 +15,7 @@ function Header() {
     return (
         <>
             <header 
-                className="max-w-[1440px] header-medias-query header-flex w-full h-20 bg-header fixed top-0  z-50"
+                className="max-w-[1440px] header-medias-query header-flex w-full h-20 bg-header fixed top-0 z-50 px-4"
             >
                 <img src={Logo} className="xl:pl-28 " alt="Logo header" />
 
@@ -32,14 +32,14 @@ function Header() {
                     />
                 </div>
 
-                <nav className='ml-[97px] lg:flex md:hidden sm:hidden hidden'>
+                <nav className='ml-[80px] lg:flex md:hidden sm:hidden hidden'>
                     <ul className='flex items-center text-white'>
                         <li className='mr-[40px] text-sm'>Explore</li>
                         <li className='mr-[40px] text-sm'>Activity</li>
                         <li className='mr-[40px] text-sm'>Resources</li>
                     </ul>
 
-                    <div className='mr-[40px] border-gradient rounded-full w-24 h-[32px] flex items-center justify-center'>
+                    <div className='mr-2 border-gradient rounded-full w-24 h-[32px] flex items-center justify-center'>
                         <a href="#" className='text-white font-fontUbuntu text-sm'>Account</a>
                     </div>
                 </nav>
@@ -50,7 +50,7 @@ function Header() {
                 </button>
 
                 <nav 
-                    className='  xl:hidden w-[32px] h-[32px] flex flex-col gap-1 justify-center items-end p-1 '
+                    className='xl:hidden w-[32px] h-[32px] flex flex-col gap-1 justify-center items-end p-1 '
                     onClick={handleMenu}
                 >
                     <div className='w-full h-1 bg-gradient'></div>
